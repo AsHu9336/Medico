@@ -34,25 +34,25 @@ export default function Header() {
       {/* Middle Section */}
       <div className="toggle hidden w-full md:w-auto md:flex text-right text-bold mt-5 md:mt-0 border-t-2 border-teal-900 md:border-none">
         <Link
-          href="#"
+          to="/"
           className="block md:inline-block text-teal-900 hover:text-teal-500 px-3 py-3 border-b-2 border-teal-900 md:border-none"
         >
           Home
         </Link>
         <Link
-          href="#"
+          to="/doctors"
           className="block md:inline-block text-teal-900 hover:text-teal-500 px-3 py-3 border-b-2 border-teal-900 md:border-none"
         >
-          Products
+          Find a Doctor
         </Link>
         <Link
-          href="#"
+          to="/services"
           className="block md:inline-block text-teal-900 hover:text-teal-500 px-3 py-3 border-b-2 border-teal-900 md:border-none"
         >
-          Pricing
+          Services
         </Link>
         <Link
-          href="#"
+          to="/contact"
           className="block md:inline-block text-teal-900 hover:text-teal-500 px-3 py-3 border-b-2 border-teal-900 md:border-none"
         >
           Contact

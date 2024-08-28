@@ -10,6 +10,7 @@ import icon03 from "../assets/images/icon03.png";
 import { FaArrowRight } from "react-icons/fa6";
 import About from "../Component/About/About";
 import ServiceList from "../Component/Services/ServiceList";
+import Footer from "../Component/Footer/Footer";
 
 
 export default function Home() {
