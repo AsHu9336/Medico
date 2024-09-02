@@ -23,6 +23,7 @@ app.get('/', (req , res) =>{
 })
 app.use('/api/auth', require('./Routes/auth'));
 app.use('/api/users', require('./Routes/user'));
+app.use('/api/doctors', require('./Routes/doctor'));
 
 app.listen(3000 , () =>{
     console.log(`Server is running on 3000`);
